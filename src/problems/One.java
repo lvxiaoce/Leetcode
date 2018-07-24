@@ -18,7 +18,13 @@ public class One {
     }
 
     public static int[] twoSum(int[] nums, int target) {
+        /*
+        初始化返回数组
+         */
         int[] returnNums = new int[2];
+        /*
+        两次循环分别从数组中取值,满足条件就将下标放入数组中
+         */
         for(int i=0;i<nums.length;i++){
             for(int j=nums.length-1;j>i;j--){
                 if(nums[i]+nums[j]==target){
