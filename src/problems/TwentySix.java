@@ -27,7 +27,7 @@ package problems;
  *
  * for (int i = 0; i < len; i++) {
  * print(nums[i]);
- }
+ * }
  */
 public class TwentySix {
     public static void main(String[] args){
