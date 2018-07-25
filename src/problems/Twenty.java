@@ -46,7 +46,7 @@ public class Twenty {
      * 如果这个是对称的话 到最后栈刚好为空
      * 如果栈不是空的则说明不对称
      *
-     **/
+     */
     public static boolean isValid(String s) {
         Stack stack = new Stack();
         char[] chars = s.toCharArray();
