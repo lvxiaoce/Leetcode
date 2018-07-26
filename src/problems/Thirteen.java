@@ -44,7 +44,7 @@ package problems;
  * 解释: M = 1000, CM = 900, XC = 90, IV = 4.
  */
 public class Thirteen {
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.println(romanToInt("LVIII"));
     }
 

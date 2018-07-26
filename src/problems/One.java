@@ -13,7 +13,7 @@ import java.util.Arrays;
  * 所以返回 [0, 1]
  */
 public class One {
-    public static void main(String args[]){
+    public static void main(String[] args){
         int[] nums = {2, 7, 11, 15};
         Arrays.stream(twoSum(nums,9)).forEach(System.out::println);
     }

@@ -13,7 +13,7 @@ package problems;
  * 输出: 5
  */
 public class FiftyEight {
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.println(lengthOfLastWord("a"));
     }
 

@@ -19,7 +19,7 @@ package problems;
  * 所有输入只包含小写字母 a-z 。
  */
 public class Fourteen {
-    public static void main(String args[]){
+    public static void main(String[] args){
         String[] s= {"a"};
         System.out.println(longestCommonPrefix(s));
     }
