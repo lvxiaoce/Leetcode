@@ -22,7 +22,7 @@ package problems;
  * 你能不将整数转为字符串来解决这个问题吗？
  */
 public class Nine {
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.println(isPalindrome(101));
     }
     public static boolean isPalindrome(int x) {

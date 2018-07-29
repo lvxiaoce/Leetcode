@@ -22,8 +22,27 @@ package problems;
  * 输出: 0
  */
 public class ThirtyFive {
+    public static void main(String[] args){
+        int[] nums = {1,3,5,6};
+        System.out.println(searchInsert(nums,0));
+    }
 
-    public int searchInsert(int[] nums, int target) {
-        return 0;
+    /**
+     * 循环该数组
+     * 如果有数等于或者大于目标数 直接返回当前下标就是 将会插入的位置
+     * 直到循环结束
+     * 如果到循环结束数组中也没有等于或者大于目标数的值
+     * 说明目标数比数组中的数都大,返回数组长度 就是将会插入的位置
+     * @param nums
+     * @param target
+     * @return
+     */
+    public static int searchInsert(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i]>=target){
+                return i;
+            }
+        }
+        return nums.length;
     }
 }

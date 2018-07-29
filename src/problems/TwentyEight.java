@@ -21,6 +21,18 @@ public class TwentyEight {
     public static void main(String[] args){
         System.out.println(strStr("a","a"));
     }
+
+    /**
+     * 拿到字符串haystack的长度和 要找出的字符串needle的长度
+     * 如果needle长度为0返回0
+     * 循环haystack的长度减去needele长度的次数
+     * 然后开始截取(0,needel的长度) (1,needel的长度+1)...直到出现一样的位置
+     * 如果相等了 返回i
+     *
+     * @param haystack
+     * @param needle
+     * @return
+     */
     public static int strStr(String haystack, String needle) {
         int haystackLength = haystack.length();
         int needleLength = needle.length();
