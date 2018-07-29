@@ -40,6 +40,7 @@ public class OneHundredSeven {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> list = new LinkedList<>();
         Queue<TreeNode> queue = new LinkedList<>();
+        if(root == null) return list;
         queue.offer(root);
         while (!queue.isEmpty()){
             int levelNum = queue.size();
